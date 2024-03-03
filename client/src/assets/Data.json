@@ -1,0 +1,92 @@
+[
+  {
+    "productName": "Ultra-Thin 13-inch Laptop",
+    "productCategory": "Laptops",
+    "productMRP": 700,
+    "productSliceMRP": 999,
+    "productRating": 4.8,
+    "productColors": ["Silver", "Space Gray"],
+    "productDescription": "Experience portability and performance with the Ultra-Thin 13-inch Laptop. Available in silver and space gray, this laptop combines sleek design with powerful features, including a high-resolution display, fast processors, and long-lasting battery life. Stay productive on the go with this lightweight and stylish device."
+  },
+  {
+    "productName": "Gaming Laptop with Dedicated GPU",
+    "productCategory": "Laptops",
+    "productMRP": 1500,
+    "productSliceMRP": 1299,
+    "productRating": 4.7,
+    "productColors": ["Black", "RGB Backlit"],
+    "productDescription": "Immerse yourself in gaming with the Gaming Laptop featuring a Dedicated GPU. Available in black and RGB backlit, this laptop offers high-performance graphics, fast refresh rates, and advanced cooling for an unparalleled gaming experience. Dominate the virtual battlefield with this powerful gaming machine."
+  },
+  {
+    "productName": "Convertible 2-in-1 Laptop/Tablet",
+    "productCategory": "Laptops",
+    "productMRP": 800,
+    "productSliceMRP": 699,
+    "productRating": 4.9,
+    "productColors": ["Silver", "Rose Gold"],
+    "productDescription": "Enjoy versatility with the Convertible 2-in-1 Laptop/Tablet. Available in silver and rose gold, this device combines the functionality of a laptop and a tablet, featuring a touchscreen display, 360-degree hinge, and lightweight design. Adapt to any task or mode with this flexible and stylish 2-in-1."
+  },
+  {
+    "productName": "Professional Ultrabook for Business",
+    "productCategory": "Laptops",
+    "productMRP": 1300,
+    "productSliceMRP": 1149,
+    "productRating": 4.8,
+    "productColors": ["Gray", "Black"],
+    "productDescription": "Optimize your business workflow with the Professional Ultrabook for Business. Available in gray and black, this laptop offers business-grade security, robust performance, and a sleek design. Stay efficient and secure in your professional endeavors with this reliable ultrabook."
+  },
+  {
+    "productName": "Budget-Friendly 15-inch Laptop",
+    "productCategory": "Laptops",
+    "productMRP": 600,
+    "productSliceMRP": 499,
+    "productRating": 4.7,
+    "productColors": ["Black"],
+    "productDescription": "Get value for your money with the Budget-Friendly 15-inch Laptop. Available in black, this laptop provides essential features for everyday computing, including a spacious display, reliable performance, and long-lasting battery. Meet your computing needs without breaking the bank with this affordable device."
+  },
+  {
+    "productName": "High-Performance Multimedia Laptop",
+    "productCategory": "Laptops",
+    "productMRP": 1000,
+    "productSliceMRP": 899,
+    "productRating": 4.9,
+    "productColors": ["Silver", "Blue"],
+    "productDescription": "Elevate your multimedia experience with the High-Performance Multimedia Laptop. Available in silver and blue, this laptop boasts a vibrant display, powerful audio, and efficient multitasking capabilities. Immerse yourself in entertainment and creativity with this high-performance multimedia device."
+  },
+  {
+    "productName": "Thin and Light 14-inch Laptop",
+    "productCategory": "Laptops",
+    "productMRP": 1100,
+    "productSliceMRP": 999,
+    "productRating": 4.8,
+    "productColors": ["Gold", "White"],
+    "productDescription": "Experience portability without compromise with the Thin and Light 14-inch Laptop. Available in gold and white, this laptop combines a slim design with robust performance, featuring a lightweight chassis, powerful processors, and a stunning display. Stay productive and stylish with this thin and light device."
+  },
+  {
+    "productName": "Creative Professional Laptop",
+    "productCategory": "Laptops",
+    "productMRP": 1600,
+    "productSliceMRP": 1499,
+    "productRating": 4.7,
+    "productColors": ["Graphite", "Silver"],
+    "productDescription": "Unleash your creative potential with the Creative Professional Laptop. Available in graphite and silver, this laptop caters to creative professionals with features like high-resolution displays, powerful graphics, and ample storage. Bring your creative visions to life with this professional-grade device."
+  },
+  {
+    "productName": "Ultra-HD 17-inch Gaming Laptop",
+    "productCategory": "Laptops",
+    "productMRP": 2000,
+    "productSliceMRP": 1899,
+    "productRating": 4.9,
+    "productColors": ["Black", "RGB Backlit"],
+    "productDescription": "Immerse yourself in gaming and entertainment with the Ultra-HD 17-inch Gaming Laptop. Available in black and RGB backlit, this laptop features a large Ultra-HD display, high-performance graphics, and customizable RGB lighting. Experience gaming in stunning detail with this top-tier gaming machine."
+  },
+  {
+    "productName": "Premium Business Ultrabook",
+    "productCategory": "Laptops",
+    "productMRP": 1800,
+    "productSliceMRP": 1699,
+    "productRating": 4.8,
+    "productColors": ["Charcoal", "Silver"],
+    "productDescription": "Elevate your business experience with the Premium Business Ultrabook. Available in charcoal and silver, this ultrabook offers premium materials, business-grade security, and powerful performance. Stay productive and make a statement in the professional world with this premium business device."
+  }
+]
