@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const { PORT, COMPASS_MONGODB } = require("./constant");
 const Routers = require("./routes");
-const Middlewares = require("./middleware");
+const {Middlewares} = require("./middleware");
 const app = express();
 
 app.get("/", (req, res) => {

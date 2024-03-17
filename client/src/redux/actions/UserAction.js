@@ -1,42 +1,33 @@
-import axios from "axios";
-import { REACT_APP_API_URL } from "../../constant";
+import { toast } from "react-toastify";
+import api from "../../InterceptorAPI";
+import {
+  failureAddDetails,
+  requestAddDetails,
+  successAddDetails,
+} from "../reducers/UserReducer";
 
-export const LoginAction = (values, navigate) => {
+export const UserDetailsAction = () => {
   return async (dispatch) => {
+    dispatch(requestAddDetails());
     try {
-      const response = await axios.post(
-        `${REACT_APP_API_URL}/api/user/login`,
-        values
-      );
-      console.log(
-        `🚀 ~ file: UserAction.js:8 ~ return ~ response:\n =>`,
-        response
-      );
-      // const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9";
-      // Cookies.set("token", token);
-      // navigate("/");
+      const response = await api.get("/api/user/details");
+      if (response.status === 200) {
+        dispatch(successAddDetails(response.data.user));
+      }
     } catch (error) {
-      return;
+      console.log(error);
+      dispatch(failureAddDetails());
+      toast.error(error.response.data.error);
     }
   };
 };
 
-export const RegisterAction = (values, navigate) => {
-  return async (dispatch) => {
-    try {
-      const response = await axios.post(
-        `${REACT_APP_API_URL}/api/user/register`,
-        values
-      );
-      console.log(
-        `🚀 ~ file: UserAction.js:8 ~ return ~ response:\n =>`,
-        response
-      );
-      // const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9";
-      // Cookies.set("token", token);
-      // navigate("/");
-    } catch (error) {
-      return;
-    }
-  };
-};
+export const UserDetailsChangeAction = (values) => {
+return async (dispatch)=>{
+  try {
+    const response = await api.get("")
+  } catch (error) {
+    
+  }
+}
+}

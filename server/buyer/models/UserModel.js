@@ -1,9 +1,14 @@
 const mongoose = require("mongoose");
 
 const UserSchema = mongoose.Schema({
-  userName: { type: String, required: [true, "Name Not Found !!!"] },
-  userEmail: { type: String, required: [true, "Email Not Found !!!"] },
-  userPassword: { type: String, required: [true, "Password Required !!!"] },
+  _id: mongoose.Schema.Types.ObjectId,
+  recipientMobile: { type: String },
+  recipientName: { type: String },
+  recipientAddress: { type: String },
+  recipientCity: { type: String },
+  recipientState: { type: String },
+  recipientPostCode: { type: String },
+  recipientCountry: { type: String },
 });
 
 const UserModel = mongoose.model("user", UserSchema);
